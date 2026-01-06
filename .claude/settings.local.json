@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python check_tables.py:*)"
+      "Bash(python check_tables.py:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

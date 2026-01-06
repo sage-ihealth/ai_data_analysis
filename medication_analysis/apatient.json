@@ -1,0 +1,325 @@
+{
+  "_id" : ObjectId("609ab581823ab800139c2669"),
+  "majorRole" : "MEMBER",
+  "address" : [
+      {
+          "type" : "MAIN",
+          "streetName" : "253 S. 19TH STREET",
+          "streetNumber" : "",
+          "unit" : "",
+          "city" : "San Jose",
+          "state" : "CA",
+          "country" : "US",
+          "postCode" : "95116"
+      }
+  ],
+  "auth" : {
+      "username" : "cromwellraulmabalatan"
+  },
+  "clinicId" : ObjectId("5dcc8c4ae59fea41c9b226df"),
+  "createdAt" : ISODate("2021-05-11T16:49:05.625+0000"),
+  "hasPassword" : false,
+  "loginId" : "cromwellraulmabalatan",
+  "medicalRecordId" : "49474051",
+  "monthlyMeasurementDays" : NumberInt(20231102),
+  "patientSource" : "MIGRATION",
+  "phone" : [
+      {
+          "countryCode" : "1",
+          "number" : "4086059467",
+          "verified" : false,
+          "type" : "MOBILE",
+          "canUseForLogin" : true
+      }
+  ],
+  "profile" : {
+      "appLanguage" : "EL",
+      "behaviorChange" : "NONE",
+      "billableHealthConditions" : [
+          {
+              "description" : "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+              "code" : "E11.22"
+          },
+          {
+              "description" : "Mixed hyperlipidemia",
+              "code" : "E78.2"
+          }
+      ],
+      "birthday" : "1954-06-16",
+      "doctorId" : ObjectId("646e5d6bc33d0a0013512f2a"),
+      "firstName" : "Cromwell Raul",
+      "gender" : "M",
+      "genderIdentity" : "MAN",
+      "height" : {
+          "unit" : "cm",
+          "value" : 175.26
+      },
+      "insuranceProvider" : "UNITEDH/C GRP MEDICARE ADV PPO",
+      "insuranceProvider2" : "NA",
+      "languages" : [
+          "EL"
+      ],
+      "lastName" : "Mabalatan",
+      "patientTechLevel" : "MEDIUM",
+      "race" : "ASIAN",
+      "weight" : {
+          "unit" : "kg",
+          "value" : 117.9340162
+      },
+      "doctorUser" : {
+          "email" : "vjam101@gmail.com",
+          "firstName" : "Victor",
+          "id" : ObjectId("646e5d6bc33d0a0013512f2a"),
+          "lastName" : "Meceda",
+          "roles" : [
+              "PROVIDER"
+          ],
+          "title" : "MD"
+      }
+  },
+  "timezone" : "America/Los_Angeles",
+  "updatedAt" : ISODate("2024-10-27T16:52:14.763+0000"),
+  "monthlyBillableStatistic" : {
+      "totalTime" : NumberInt(32),
+      "measurementDays" : NumberInt(14),
+      "callEligible" : false,
+      "eligible" : false,
+      "monthOfYear" : NumberInt(202405),
+      "updatedAt" : ISODate("2024-05-24T20:27:56.551+0000")
+  },
+  "hash" : "x",
+  "assignedToCA" : ObjectId("6706f27cacc4ea41a0331895"),
+  "assignedToRD" : ObjectId("5f68f04489ae140013d81f15"),
+  "patientListInfo" : {
+      "enrolledStatus" : "DISCHARGED",
+      "enrollmentDate" : ISODate("2021-05-11T16:58:36.297+0000"),
+      "programs" : [
+          {
+              "category" : "CCM",
+              "createdAt" : ISODate("2021-05-11T23:29:39.604+0000")
+          },
+          {
+              "category" : "RPM",
+              "createdAt" : ISODate("2021-05-11T23:29:39.605+0000")
+          }
+      ],
+      "vitals" : [
+          {
+              "type" : "BG",
+              "templateDetails" : {
+                  "name" : "New to Monitoring - 2 Bedtime & 2 mealtime paired",
+                  "description" : "New to Monitoring - 2 Bedtime & 2 mealtime paired",
+                  "schedule" : {
+                      "_id" : ObjectId("609ab619807c7a00145c2567"),
+                      "mon" : {
+                          "before_breakfast" : false,
+                          "after_breakfast" : false,
+                          "before_lunch" : false,
+                          "after_lunch" : false,
+                          "before_dinner" : false,
+                          "after_dinner" : false,
+                          "bedtime" : true,
+                          "overnight" : false
+                      },
+                      "tues" : {
+                          "before_breakfast" : true,
+                          "after_breakfast" : false,
+                          "before_lunch" : false,
+                          "after_lunch" : false,
+                          "before_dinner" : false,
+                          "after_dinner" : false,
+                          "bedtime" : false,
+                          "overnight" : false
+                      },
+                      "wed" : {
+                          "before_breakfast" : false,
+                          "after_breakfast" : false,
+                          "before_lunch" : false,
+                          "after_lunch" : false,
+                          "before_dinner" : false,
+                          "after_dinner" : false,
+                          "bedtime" : false,
+                          "overnight" : false
+                      },
+                      "thurs" : {
+                          "before_breakfast" : false,
+                          "after_breakfast" : false,
+                          "before_lunch" : true,
+                          "after_lunch" : true,
+                          "before_dinner" : false,
+                          "after_dinner" : false,
+                          "bedtime" : false,
+                          "overnight" : false
+                      },
+                      "fri" : {
+                          "before_breakfast" : false,
+                          "after_breakfast" : false,
+                          "before_lunch" : false,
+                          "after_lunch" : false,
+                          "before_dinner" : true,
+                          "after_dinner" : true,
+                          "bedtime" : false,
+                          "overnight" : false
+                      },
+                      "sat" : {
+                          "before_breakfast" : false,
+                          "after_breakfast" : false,
+                          "before_lunch" : false,
+                          "after_lunch" : false,
+                          "before_dinner" : false,
+                          "after_dinner" : false,
+                          "bedtime" : true,
+                          "overnight" : false
+                      },
+                      "sun" : {
+                          "before_breakfast" : true,
+                          "after_breakfast" : false,
+                          "before_lunch" : false,
+                          "after_lunch" : false,
+                          "before_dinner" : false,
+                          "after_dinner" : false,
+                          "bedtime" : false,
+                          "overnight" : false
+                      }
+                  }
+              },
+              "activated" : true,
+              "createdAt" : ISODate("2021-05-11T16:51:37.482+0000")
+          },
+          {
+              "type" : "EXERCISE",
+              "repeat" : "WEEKLY",
+              "target" : NumberInt(15400),
+              "activated" : true,
+              "createdAt" : ISODate("2021-05-11T16:51:37.482+0000")
+          }
+      ],
+      "dischargedAt" : ISODate("2024-05-17T16:50:08.967+0000")
+  },
+  "assignedToCAUser" : {
+      "avatar" : {
+          "fileKey" : "food-log/user/5ed7dbaa7214b300139c9d8d/6.jpg"
+      },
+      "email" : "andrew.vu@ihealthlabs.com",
+      "firstName" : "Andrew",
+      "id" : ObjectId("6706f27cacc4ea41a0331895"),
+      "lastName" : "Vu",
+      "title" : "CA"
+  },
+  "assignedToRDUser" : {
+      "avatar" : {
+          "fileKey" : "avatar/user/5f68f04489ae140013d81f15/IMG_4859.jpg"
+      },
+      "email" : "anna.sramek@ihealthlabs.com",
+      "firstName" : "Anna",
+      "id" : ObjectId("5f68f04489ae140013d81f15"),
+      "lastName" : "Sramek",
+      "title" : "RD"
+  },
+  "clinic" : {
+      "address" : "2395 Montpelier Dr #4",
+      "address2" : "",
+      "alias" : "CA/San Jose- Dr. Meceda, Victor",
+      "businessName" : "Primaire Medical Systems",
+      "city" : "San Jose",
+      "clinicStatus" : "ACTIVE",
+      "enableShareAccess" : true,
+      "id" : "5dcc8c4ae59fea41c9b226df",
+      "isMyClinics" : true,
+      "medicalOrgStatus" : "ACTIVE",
+      "nickName" : "CA/San Jose- Dr. Meceda, Victor",
+      "sequenceNumber" : "5",
+      "state" : "CA",
+      "timezone" : "US/Pacific",
+      "orgNumber" : "5"
+  },
+  "complexity" : "COMPLEX",
+  "updatedBy" : ObjectId("609ab581823ab800139c2669"),
+  "bgDeviceInfo" : {
+      "recentUsedDeviceMacId" : "000000000000",
+      "recentUsedTime" : ISODate("2024-05-24T20:27:42.042+0000"),
+      "pairedTime" : ISODate("2021-05-11T17:05:50.945+0000")
+  },
+  "medicalOrganizationAssignment" : {
+      "careCenterId" : ObjectId("65e0a9217fff9f03c3b687ca"),
+      "careDivisionId" : ObjectId("65e0aa087fff9f03c3b687cb"),
+      "careGroup" : {
+          "id" : "65e0ca337fff9f03c3b687d2",
+          "name" : "Group 3"
+      },
+      "careGroupId" : ObjectId("65e0ca337fff9f03c3b687d2"),
+      "createdAt" : ISODate("2024-02-29T18:18:15.516+0000"),
+      "id" : "65e0ca677fff9f03c3b687d3",
+      "medicalOrgId" : ObjectId("5dcc8c4ae59fea41c9b226df"),
+      "medicalOrganization" : {
+          "address" : "2395 Montpelier Dr #4",
+          "address2" : "",
+          "alias" : "CA/San Jose- Dr. Meceda, Victor",
+          "businessName" : "Primaire Medical Systems",
+          "city" : "San Jose",
+          "clinicStatus" : "ACTIVE",
+          "enableShareAccess" : true,
+          "id" : "5dcc8c4ae59fea41c9b226df",
+          "isMyClinics" : true,
+          "medicalOrgStatus" : "ACTIVE",
+          "nickName" : "CA/San Jose- Dr. Meceda, Victor",
+          "orgNumber" : "5",
+          "state" : "CA",
+          "timezone" : "US/Pacific"
+      },
+      "rootId" : ObjectId("635700bfba27eb0eabce5000"),
+      "updatedAt" : ISODate("2024-02-29T18:18:15.516+0000")
+  },
+  "tag" : "",
+  "diagnoses" : [
+      "CKD",
+      "HLD",
+      "DM2",
+      "HTN"
+  ],
+  "healthConditions" : [
+      {
+          "code" : "I10",
+          "condition" : "Essential (primary) hypertension",
+          "isBillable" : false
+      },
+      {
+          "code" : "E78.2",
+          "condition" : "Mixed hyperlipidemia",
+          "isBillable" : true
+      },
+      {
+          "code" : "I12.9",
+          "condition" : "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+          "isBillable" : false
+      },
+      {
+          "code" : "E11.22",
+          "condition" : "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+          "isBillable" : true
+      },
+      {
+          "code" : "N18.1",
+          "condition" : "Chronic kidney disease, stage 1",
+          "isBillable" : false
+      }
+  ],
+  "icdCodes" : [
+      "I10",
+      "E78.2",
+      "I12.9",
+      "E11.22",
+      "N18.1"
+  ],
+  "incompleteStatusList" : [
+
+  ],
+  "patientCategories" : [
+      "DM2",
+      "CKD",
+      "HTN",
+      "HLD"
+  ],
+  "protocol" : "DM2",
+  "controlLevel" : "UNCATEGORIZED"
+}

@@ -6,3 +6,4 @@ sqlalchemy
 pymysql
 pymongo
 python-dotenv
+anthropic

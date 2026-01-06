@@ -1,0 +1,26 @@
+
+
+
+
+        // "5f4590bbe8f9890013dc3e26", // 11 CA/Sac Rocklin Family Practice
+        // "5fd1079f71874b00134cb04c", // 22 CA/Sac Apollo Physicians 
+        // "5ffce3fb718247001480b7a0", //26 CA/Folsom Folsom Internal Medicine Associates (FIMA)
+        // "630fd37b9c1847001323dfed", //66 CA/Sac Riverbend Medical Associates
+        // "63470211e3b38f0013d4633e", //70 CA/Sac - Dr. Young, Douglas
+        // "63936ad0af5b370013fb5171", //74 CA/Sac - Summit Nephrology
+        // "63e6c0d74b5ebb0013e849ba", //76 CA/Sac - The Doctor's In, Inc.
+        // "64763db2ff0e8000138fccdf", //83 CA/Sac - Cordova Medical Clinic
+        // "648a4e90ff0e800013c0c76b", //85  /Dr. Thomas Hopkins 
+        // "651df7ec4c28a60013e5a32b", //90 CA/Sac - Sac City MD
+        // "651b04688f3f4f0013d19a8a", //91 CA/Sac - Capitol Internal Medical Associates 
+        // "651c947809211b0013d252b9", //92 CA/Sac - Natomas Family Practice
+        // "65ce9148f1541f001365c6fc", // 104 - CA/Auburn - Sierra Doctors Medical Group
+        // "66955af647cf917c8ba5f82a", //"orgNumber" : "118" 118 CA/Sac - Dr. Martinez
+        // "66983bd2193aa2047421b11d", //119 CA/Sac - Moynihan Family Practice
+        // "66b5b7436a57267b093e8d26", // 122 CA/Sac - Dr. Massil, David
+        // "66db2de27463c55497eb47d8", // 126 CA/Sac - Rahma Clinic
+        // "671674e6c5820e6e5ae53549", // 132 CA/Sac - Dr. Bhatia
+        // "6723b06ecbddfc68d56544db", // 133 CA/Sac - ZEAM Medical Group
+        // "67805ff6aafde53d887a16be" // 135 CA/Sac - AIMS Clinic     
+
+db.getCollection("role_assignments").find({'active': true, "roleType": "CA"})
